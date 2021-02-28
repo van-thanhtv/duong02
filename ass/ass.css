@@ -123,11 +123,8 @@ padding-top: 15px;}
     color: red;
 }
 .noidung{
-    height: 550px;
-    width: 500px;
-    float: left;
-    padding-top: 50px;
-    padding-left: 50px;
+    width: 1000px;
+
     border-right: 1px solid #e5e5e5;
 }
 

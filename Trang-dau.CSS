@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.khung{
+    width: 1200px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+.noi-dung1{
+    width: 100%;
+    height: 700px;
+    font-size: 25px;
+    background-color: bisque;
+}
+.noi-dung1 .anh img{
+    width: 150px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+.noi-dung2{
+    width: 100%;
+    height: 600px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: 50px;
+    display: flex;
+    background-color: aquamarine;
+
+}
+.thong-bao{
+    background-color: rgb(174, 228, 25);
+    border: 1px solid red;
+    padding: 5px;
+    margin-left: 5px;
+}
+.lich{
+    background-color: bisque;
+    border: 1px solid red;
+    padding: 5px;
+    margin-left: 10px;
+}
+.hoat-dong{
+    background-color: rgb(83, 173, 209);
+    border: 1px solid red;
+    padding: 5px;
+    margin-left: 10px;
+}
