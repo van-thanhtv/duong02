@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    box-shadow: none;
+}
+.body{
+    width: 1300px;
+    margin: 0 auto;
+    border: white;
+}
+.header{
+    height: 250px;
+    background-color: yellow;
+} 
+.at{
+    padding-left: 30px;
+}
+.ho{float: right;
+bottom: 5px;
+height: 40px;
+width: 250px;
+margin: 5px;
+}
+
+.menu ul li{
+    width: 150px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.menu{
+    font-variant: normal; 
+    width: 100%;
+    background-color: blue;
+}
+.menu ul{
+    list-style: none;
+    padding: 0px;
+}
+.menu > ul > li{
+    display: inline-block;
+}
+
+.menu ul li{
+    width: 150px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a{
+    color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    height: 50px;
+    background: blue;
+
+}
+.menu > ul > li >a{text-align: center;
+padding-top: 15px;}
+
+
+.menu ul li ul{
+    width: 250px;
+    position:absolute;
+    display: none;/*ẩn menu con*/
+}
+.menu ul li:hover > ul{
+    display: block;/*hiện menu con*/
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color: gold;
+    
+}
+.xd-footer__container {
+    color: #444;
+    font-size: 14px;
+    box-shadow: 0 2px 15px rgba(0,0,0,.1);
+    background: #f9faff;
+    padding-top: .6rem;
+}
+.duong{
+    float: left;
+    height: 50px;
+}
+footer {
+    display: block;
+}
+.text-md-left {
+    text-align: left!important;
+}
+.form-group{
+    width: 450px;
+}
+.tt{
+    width: 450px;
+    float: left;
+    height: 150px;
+   padding-left: 50px;
+}
+.tr{
+    width: 400px;
+    float: left;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 30px;
+     
+}
+h3{
+    padding-bottom: 20px;
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    height: 50px;
+    max-width: 1300px;
+    margin: 2rem auto 1rem auto;
+    display: flex;
+    flex-direction: row;
+}
+.xd-footer__container{
+    height: 290px;
+    max-width: 1300px;
+    margin: 2rem auto 1rem auto;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 10px 13px -7px #a7a7a7, 5px 5px 15px 5px transparent;
+}
+h1{
+    border-bottom: solid 2px #f27124;
+}

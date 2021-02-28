@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    box-shadow: none;
+}
+.body{
+    width: 1300px;
+    margin: 0 auto;
+    border: white;
+}
+.header{
+    height: 250px;
+    background-color: yellow;
+} 
+.at{
+    padding-left: 30px;
+}
+.ho{float: right;
+bottom: 5px;
+height: 40px;
+width: 250px;
+margin: 5px;
+}
+
+.menu ul li{
+    width: 150px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.menu{
+    font-variant: normal; 
+    width: 100%;
+    background-color: blue;
+}
+.menu ul{
+    list-style: none;
+    padding: 0px;
+}
+.menu > ul > li{
+    display: inline-block;
+}
+
+.menu ul li{
+    width: 150px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a{
+    color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    height: 50px;
+    background: blue;
+
+}
+.menu > ul > li >a{text-align: center;
+padding-top: 15px;}
+
+
+.menu ul li ul{
+    width: 250px;
+    position:absolute;
+    display: none;/*ẩn menu con*/
+}
+.menu ul li:hover > ul{
+    display: block;/*hiện menu con*/
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color: gold;
+    
+}
+.content{
+    height:750px;
+    background-color: white;
+}
+
+.bottom{
+    padding-top: 20px;
+    padding-left: 90px;
+    margin-bottom: 20px;
+}
+.left{
+    height: 550px;
+    width: 500px;
+    float: left;
+    background-color: white;
+    padding-left:100px;
+    padding-top: 50px;
+    border-right: 1px solid #e5e5e5;
+}
+.left1{
+    padding-top: 50px;
+    font-size: 17px;
+    color: #222;
+   
+}
+
+.ta2{
+    font-size: 20px;
+    padding-left: 80px;
+}
+#thongbao{
+    color: #222 !important;
+    font-size: 1.22rem;
+    font-weight: bold;
+    border-bottom: solid 2px #f27124;
+    padding: 5px 10px 5px 0;
+    margin: 0 0 1rem 0;
+    font-size: 22px;
+}
+.thongbao1 a:hover{
+    color: red;
+}
+.noidung{
+    height: 550px;
+    width: 500px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.right{
+    padding-left: 50px;
+    padding-top: 50px;
+    height: 500px;
+    width: 400px;
+    float: left;
+    
+}
+
+.footer{
+    height: 150px;
+    clear: both;
+}
+.tt{
+    width: 650px;
+    float: left;
+    height: 150px;
+   padding-left: 50px;
+}
+.tr{
+    width: 650px;
+    float: left;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 30px;
+     
+}
+h3{
+    padding-bottom: 20px;
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    max-width: 1300px;
+    margin: 2rem auto 1rem auto;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 10px 13px -7px #a7a7a7, 5px 5px 15px 5px transparent;
+}
